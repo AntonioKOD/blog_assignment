@@ -19,3 +19,7 @@ Recognizing the importance of user comfort and accessibility, the application in
 ### Data Persistence with Local Storage
 To ensure that your blog posts are saved and persist across sessions, the application utilizes the browser's local storage. This means that even if you close the browser or refresh the page, your blog posts will remain intact and accessible the next time you open the application.
 
+[Click here](https://antoniokod.github.io/blog_assignment/index.html)
+
+![Image of the site](assets/images/screenshot.png)
+
