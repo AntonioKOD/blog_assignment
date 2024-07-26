@@ -1,0 +1,81 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+.dark {
+    background-color: #243447;
+    height: 100vh;
+    color: #bebebe;
+}
+
+.light {
+    background-color: #f4f4f4;
+    height: 100vh;
+    color: #333;
+}
+.fa-sun {
+    color: #FF9800;
+    font-size: 20px;
+    margin-left: 93%;
+
+}
+.fa-moon{
+    color: white; 
+    font-size: 20px;
+    margin-left: 93%;
+}
+
+#moon-icon{
+    display: none;
+}
+
+.toggle-mode{
+    display: flex;
+    justify-content: center;
+
+    border: none;
+    margin-left: 93%;
+    background-color: inherit;
+}
+
+
+
+.change-mode {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: thick double #333;
+    border-width: 10px;
+    width: 100%; /* Ensure it spans full width */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.circle {
+    width: inherit;
+    height: 800px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(red, black);
+    color: #fff;
+    margin-right: 50px;
+    margin-top: 70px;
+    flex-shrink: inherit;
+    
+    
+}
+
+.item {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    margin-left: 40px;
+    flex-wrap: wrap; /* Ensure items wrap if needed */
+}
+
