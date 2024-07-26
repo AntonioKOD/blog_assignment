@@ -1,4 +1,3 @@
-
 let blogs = [];
 
 
@@ -33,9 +32,10 @@ function renderBlogs(){
 function init(){
     const posts = JSON.parse(localStorage.getItem('posts')) || [];
 
-    addNewPost(posts.title, posts.content, posts.username);
-
-      renderBlogs();
+    if(posts.length > 0){
+        blogs = posts;
+    }
+    renderBlogs();
 
     
 }
