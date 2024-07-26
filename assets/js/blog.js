@@ -30,28 +30,6 @@ function renderBlogs(){
    
 }
 
-function addNewPost(title, content, username){
-    let posts = JSON.parse(localStorage.getItem('posts')) || [];
-    if (!Array.isArray(posts)) {
-        posts = [];
-    }
-
-    const newPost = {
-        title: title,
-        content: content,
-        username: username
-    };
-
-    posts.push(newPost);
-
-    localStorage.setItem('posts', JSON.stringify(posts));
-
-    renderBlogs();
-
-
-}
-
-
 function init(){
     const posts = JSON.parse(localStorage.getItem('posts')) || [];
 
